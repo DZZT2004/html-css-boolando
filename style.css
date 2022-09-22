@@ -351,3 +351,16 @@ section > i{
     margin-top: 0.5rem;
     font-size: 1.5rem;
 }
+
+.imgb{
+    display: none;
+}
+
+.img:hover{
+    display: none;
+}
+
+.img:hover + .imgb{
+    display: inline-block;
+}
+
